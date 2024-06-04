@@ -1,0 +1,11 @@
+﻿"Field Name, Data Type, Required",Description
+"[incident_num] [varchar](20) NOT NULL,",Internal BPD report number
+"[offense_code][varchar](25) NULL,",Numerical code of offense description
+"[Offense_Code_Group_Description][varchar](80) NULL,",Internal categorization of [offense_description]
+"[Offense_Description][varchar](80) NULL,",Primary descriptor of incident
+"[district] [varchar](10) NULL,",What district the crime was reported in
+"[reporting_area] [varchar](10) NULL,",RA number associated with the where the crime was reported from.
+"[shooting][char] (1) NULL,",Indicated a shooting took place.
+"[occurred_on] [datetime2](7) NULL,",Earliest date and time the incident could have taken place
+"[UCR_Part] [varchar](25) NULL,","Universal Crime Reporting Part number (1,2, 3)"
+"[street] [varchar](50) NULL,",Street name the incident took place
