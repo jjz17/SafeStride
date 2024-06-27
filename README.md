@@ -4,8 +4,13 @@ Dashboard and analytics of city crime data to enable safe walking for pedestrian
 ## Data Source(s)
 * [Boston Crime](https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system)
 
+## Reference Work
+* https://www.kaggle.com/code/christotk/analyse-crimes-in-boston-with-geopandas-and-folium
+
 ## Next Steps
 1. [Project template](https://gist.github.com/ericmjl/27e50331f24db3e8f957d1fe7bbbe510) or [Cookie cutter template](https://cookiecutter-data-science.drivendata.org)
+2. Identify locations of crimes/danger and route pedestrians away from those areas
+   1. Pick map/routing API
 
 ## Common Problems
 * [psutil incompatible architecture](https://stackoverflow.com/questions/72619143/unable-to-import-psutil-on-m1-mac-with-miniforge-mach-o-file-but-is-an-incomp)
